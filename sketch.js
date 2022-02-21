@@ -48,7 +48,7 @@ function draw() {
   }
   
   //creating continous balloons
-  var select_balloon = Math.round(random(1,1));
+  var select_balloon = Math.round(random(1,4));
   
   if (World.frameCount % 100 == 0) {
     if (select_balloon == 1) {
